@@ -1,3 +1,7 @@
+.jumbotron {
+ margin-top: 20px;  
+}
+
 #jumbo {
   font-size: 18px;
 }
@@ -9,4 +13,16 @@
 #pet1 img, #pet1 button {
   display: block;
   margin: auto;
+}
+
+.panel-body {
+  background-color: #	#f9f9f9;
+}
+
+.panel-title {
+  background-color: #	#f9f9f9;
+}
+
+body {
+  background-color: #ca9542;
 }
