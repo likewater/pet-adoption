@@ -2,8 +2,10 @@
 
 //user interface logic
 $(document).ready(function() {
-  $("#adoptable").click(function() {
-    $("#adopted").hide(); //#adopted place holder id for now
+  $("#all").click(function() {
+    $("#adopted, #adoptable").show();
+    //ID's for .show() are temporary
+
   });
     $("btn#seeAdopt").click(function() {
      $("#").hide(); // will call all objects with the "adopted" property value.
