@@ -1,8 +1,11 @@
 //back end logic
 
-//front end logic
+//user interface logic
 $(document).ready(function() {
-  $("btn#seeAdopt").click(function() {
-    $("#").hide(); // will call all objects with the "adopted" property value.
+  $("#adoptable").click(function() {
+    $("#adopted").hide(); //#adopted place holder id for now
+  });
+    $("btn#seeAdopt").click(function() {
+     $("#").hide(); // will call all objects with the "adopted" property value.
   });
 });
