@@ -1,3 +1,12 @@
 #jumbo {
   font-size: 18px;
 }
+
+#pet1 h2, #pet1 p, #pet1 ul {
+  text-align: center;
+}
+
+#pet1 img, #pet1 button {
+  display: block;
+  margin: auto;
+}
